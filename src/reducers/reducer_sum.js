@@ -13,8 +13,7 @@ export default function (state = 0, action) {
     return state;
 }
 
-function calculate(state) {
-    debugger;
+function calculate(state) { //can use eval insted
     var sum = 0;
     let aPlus = state.split("+");
     for (let i = 0; i < aPlus.length; i++) {
